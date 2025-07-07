@@ -1,0 +1,37 @@
+# Executáveis compilados
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Diretórios de build
+/bin/
+/build/
+/dist/
+
+# Arquivos gerados pelo Go
+*.log
+*.tmp
+
+# Diretório do módulo Go
+vendor/
+
+# IDEs e editores
+.idea/
+.vscode/
+*.swp
+*~
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Configs locais e segredos
+.env
+.env.*
+*.local
+*.secret
+*.key
